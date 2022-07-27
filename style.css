@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 247, 247);
+}
+
+nav {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.first-button {
+  padding: 10px 3rem;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.first-button:hover {
+  background-color: rgb(79, 78, 78);
+}
+
+.max {
+  text-align: center;
+  width: 25rem;
+  background-color: rgb(216, 211, 211);
+  padding: 2rem;
+  margin: auto;
+  margin-top: 5rem;
+  box-shadow: 2px 1px 8px rgb(211, 210, 210);
+  position: relative;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+.cross {
+  margin-bottom: 1rem;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 6px whitesmoke;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: start;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
